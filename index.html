@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation 5 JS functions</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+   <div class="container">
+        <h1>SUM OF TWO NUMBERS</h1>
+            <form>
+                <label>
+                    First Number
+                </label>
+                    <br>
+                <input type="number" ID="Rain">
+                <br>
+
+                <label>
+                    Second Number
+                </label>
+                <br>
+                <input type="Number" ID="Bow">
+                <br>
+
+                <p ID="Rainbow">
+                    The sum of two variable is 
+                </p>
+
+                <button type="button" class="btn btn-success" onclick="window.location.reload()">Refresh</button>
+
+             <button type="button" onclick="">Calculate</button>
+                    
+            </form> 
+            <script>
+            function getSum() {
+                let Ver1=document.getElementById("Rain").value;
+                let Ver2=document.getElementById("Bow").value;
+                let answer=Ver1+Ver2;
+            document.getElementById("Rainbow").innerHTML=answer
+        }
+    </script>
+   </div>
+   
+</body>
+</html>
